@@ -63,7 +63,7 @@ const Register = ({
               textAlign="center"
               mb="22px"
             >
-              Click Here
+              Register
             </Text>
             <form onSubmit={onSubmit}>
               <FormControl>

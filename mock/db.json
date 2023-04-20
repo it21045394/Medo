@@ -4,12 +4,12 @@
       "billing": 48000,
       "id": 1,
       "idEmr": 1,
-      "name": "Rhenald Karrel"
+      "name": "Mahinda Rajapaksha"
     },
     {
       "idEmr": 6,
       "billing": 80050,
-      "name": "Senitha",
+      "name": "Namal Rajapaksha",
       "id": 2
     },
     {
@@ -22,26 +22,26 @@
   "emr": [
     {
       "birthday": "1997-06-18",
-      "birthplace": "Jakarta",
-      "diagnosis": "Batuk dan demam",
-      "doctor": "Syarif",
+      "birthplace": "Colombo",
+      "diagnosis": "High Fever",
+      "doctor": "Ajith Perera",
       "examinationDate": "2022-07-15",
       "gender": "male",
       "id": 1,
       "drug": [
         "Paracetamol"
       ],
-      "patient": "Rhenald Karrel",
+      "patient": "Mahinda Rajapaksha",
       "patientId": 1
     },
     {
-      "patient": "Senitha",
+      "patient": "Namal Rajapaksha",
       "diagnosis": "Cough",
       "drug": [
         "Peniciline"
       ],
       "examinationDate": "2023-04-22",
-      "doctor": "Jane Doe",
+      "doctor": "Upul Tharanga",
       "birthday": "2023-04-03",
       "birthplace": "Ragama",
       "gender": "Male",
@@ -49,7 +49,7 @@
     },
     {
       "patient": "Yasith Bagya",
-      "diagnosis": "muta pissu",
+      "diagnosis": "Cough",
       "drug": [
         "Ventolin",
         "Peniciline",
@@ -59,7 +59,7 @@
         "Paracetamol"
       ],
       "examinationDate": "2023-04-22",
-      "doctor": "Dasuni",
+      "doctor": "Wasanthi Wijesinghe",
       "birthday": "2000-08-09",
       "birthplace": "Ragama",
       "gender": "Male",
@@ -70,7 +70,7 @@
     {
       "price": 10,
       "id": 1,
-      "name": "Paracetamol"
+      "name": "Panadol"
     },
     {
       "price": 20,
@@ -80,7 +80,7 @@
     {
       "price": 50,
       "id": 3,
-      "name": "Ibuprofen"
+      "name": "Vitamin C"
     },
     {
       "id": 4,
@@ -104,7 +104,7 @@
       "id": 1,
       "patiendId": 4,
       "time": "20:18",
-      "name": "Rhenald Karrel",
+      "name": "Mahinda Rajapaksha",
       "status": "Finished",
       "date": "2022-07-15"
     },
@@ -114,8 +114,18 @@
       "patientId": 13,
       "name": "Yasith Bagya",
       "status": "Finished",
-      "doctor": "Dasuni",
+      "doctor": "Wasanthi Wijesinghe",
       "id": 2
+    },
+    {
+      "date": "2023-04-25",
+      "time": "",
+      "patientId": 13,
+      "name": "Yasith Bagya",
+      "status": "In queue",
+      "doctor": "Upul Tharanga",
+      "timeSlot": "16:00",
+      "id": 3
     }
   ],
   "schedule": [
@@ -146,77 +156,77 @@
   ],
   "users": [
     {
-      "email": "janedoe@gmail.com",
+      "email": "upul@gmail.com",
       "id": 1,
-      "name": "Jane Doe",
+      "name": "Upul Tharanga",
       "password": "$2a$10$fvJedDeB6jvxxKN3WPNbKu8Jd0BaIw6.Fdbj5gRAm7jvhZuV/PFFa",
       "role": "doctor"
     },
     {
-      "email": "kamalakhan@gmail.com",
+      "email": "mahela@gmail.com",
       "id": 5,
-      "name": "Kamala Khan",
+      "name": "Mahela Jayawardene",
       "password": "$2a$10$fvJedDeB6jvxxKN3WPNbKu8Jd0BaIw6.Fdbj5gRAm7jvhZuV/PFFa",
       "role": "admin"
     },
     {
-      "email": "johndoe@gmail.com",
+      "email": "gayan@gmail.com",
       "id": 6,
-      "name": "John Doe",
+      "name": "Gayan Madushanka",
       "password": "$2a$10$fvJedDeB6jvxxKN3WPNbKu8Jd0BaIw6.Fdbj5gRAm7jvhZuV/PFFa",
       "role": "receptionist"
     },
     {
       "birthday": "1997-06-18",
-      "birthplace": "Jakarta",
-      "email": "renald@gmail.com",
+      "birthplace": "Colombo",
+      "email": "mahinda@gmail.com",
       "gender": "male",
       "id": 7,
-      "name": "Rhenald Karrel",
+      "name": "Mahinda Rajapaksha",
       "password": "$2a$10$rQPrZWdMnZ7RVSx1bTu32enQjqjAiq0bp6.D.mQTWNwwKr4gXvWVS",
       "phone": 8123456789,
       "role": "patient"
     },
     {
-      "email": "syarif@gmail.com",
+      "email": "safi@gmail.com",
       "id": 2,
-      "name": "Syarif",
+      "name": "Safi Perera",
       "password": "$2a$10$fvJedDeB6jvxxKN3WPNbKu8Jd0BaIw6.Fdbj5gRAm7jvhZuV/PFFa",
       "role": "doctor"
     },
     {
-      "email": "media@gmail.com",
+      "email": "jayan@gmail.com",
       "id": 3,
-      "name": "Media",
+      "name": "Jayan Perera",
       "password": "$2a$10$fvJedDeB6jvxxKN3WPNbKu8Jd0BaIw6.Fdbj5gRAm7jvhZuV/PFFa",
       "role": "doctor"
     },
     {
       "birthday": "1994-06-07",
-      "birthplace": "Jakarta",
-      "email": "sumanto@gmail.com",
+      "birthplace": "Colombo",
+      "email": "kalindu@gmail.com",
       "gender": "male",
       "id": 8,
-      "name": "Sumanto",
+      "name": "Kalindu Perera",
       "password": "$2a$10$5L8y82eJumF1b4sFKWs7rOpY8bnQOfJj5x7UnkTu4UnGmGmtzYWq6",
       "phone": 81234567868,
       "role": "patient"
     },
     {
       "birthday": "2001-06-03",
-      "birthplace": "Jakarta",
-      "email": "sultan@gmail.com",
+      "birthplace": "Colombo",
+      "email": "shawe@gmail.com",
       "gender": "male",
       "id": 9,
-      "name": "Sultan Muhammad Habibi",
+      "name": "Sawendra Perera",
       "password": "$2a$10$Djg2uNcONN85b4WKfWYP9OrEMTv6G/37W6QW.h2XpO/uMQEQrV15i",
       "phone": 81234546789,
       "role": "patient"
     },
     {
-      "email": "senitha@gmail.com",
+      "email": "namal@gmail.com",
       "password": "$2a$10$lFZtgz51YE5seUcfBRnVMellkE6k.x67t.GTKKkjwWpe92QBfR9Oe",
-      "name": "Senitha",
+      "name": "Namal Rajapaksha",
       "gender": "Male",
       "birthplace": "Ragama",
       "birthday": "2023-04-03",
@@ -225,9 +235,9 @@
       "id": 11
     },
     {
-      "email": "dasuni@gmail.com",
+      "email": "wasanthi@gmail.com",
       "password": "$2a$10$aZAzUA1l2BIG/u99I746C.F2RwFXp6CdLRffni952y8BXjfhwZw/6",
-      "name": "Dasuni",
+      "name": "Wasanthi Wijesinghe",
       "role": "doctor",
       "id": 4
     },
