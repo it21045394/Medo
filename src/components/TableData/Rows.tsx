@@ -153,7 +153,7 @@ const Rows = ({
                 <Text>{item.examinationDate}</Text>
               </Td>
               <Td>
-                <Text>{item.docter}</Text>
+                <Text>{item.doctor}</Text>
               </Td>
               <Td>
                 <Link to={`/emr-history/${item.id}`}>
@@ -188,7 +188,7 @@ const Rows = ({
                 <Text>{item.examinationDate}</Text>
               </Td>
               <Td>
-                <Text>{item.docter}</Text>
+                <Text>{item.doctor}</Text>
               </Td>
               <Td>
                 <Link to={`/my-emr/${item.id}`}>
@@ -209,7 +209,7 @@ const Rows = ({
           {data
             .filter((item) => item.status === "In queue")
             .map((item, index) => (
-              <Tr key={index} bg={item.nam === auth.name ? "blue.50" : ""}>
+              <Tr key={index} bg={item.name === auth.name ? "blue.50" : ""}>
                 <Td>
                   <Text>{index + 1}</Text>
                 </Td>
@@ -226,7 +226,7 @@ const Rows = ({
                   ""
                 ) : (
                   <Td>
-                    <Text>{item.docter}</Text>
+                    <Text>{item.doctor}</Text>
                   </Td>
                 )}
               </Tr>
@@ -253,7 +253,7 @@ const Rows = ({
                 <Text>{item.time}</Text>
               </Td>
               <Td>
-                <Text>{item.docter}</Text>
+                <Text>{item.doctor}</Text>
               </Td>
               <Td>
                 <Text>{item.status}</Text>

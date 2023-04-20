@@ -7,14 +7,14 @@
       "name": "Rhenald Karrel"
     },
     {
-      "idEmr": 2,
-      "billing": 48000,
-      "name": "Yasith Bagya",
+      "idEmr": 6,
+      "billing": 80050,
+      "name": "Senitha",
       "id": 2
     },
     {
       "idEmr": 3,
-      "billing": 48005,
+      "billing": 1105,
       "name": "Yasith Bagya",
       "id": 3
     }
@@ -35,57 +35,50 @@
       "patientId": 1
     },
     {
-      "patient": "Yasith Bagya",
-      "diagnosis": "Headache",
+      "patient": "Senitha",
+      "diagnosis": "Cough",
       "drug": [
+        "Peniciline"
+      ],
+      "examinationDate": "2023-04-22",
+      "doctor": "Jane Doe",
+      "birthday": "2023-04-03",
+      "birthplace": "Ragama",
+      "gender": "Male",
+      "id": 2
+    },
+    {
+      "patient": "Yasith Bagya",
+      "diagnosis": "muta pissu",
+      "drug": [
+        "Ventolin",
+        "Peniciline",
+        "Diegiene",
+        "Ibuprofen",
+        "Aspirin",
         "Paracetamol"
       ],
-      "examinationDate": "2023-04-19",
-      "doctor": "Syarif",
-      "id": 2,
-      "birthday": "2001-06-03",
-      "birthplace": "Jakarta",
-      "gender": "male"
-    },
-    {
-      "patient": "Yasith Bagya",
-      "diagnosis": "heavy Flu",
-      "drug": [
-        "Paracetamol",
-        "Ventolin"
-      ],
-      "examinationDate": "2023-04-21",
-      "doctor": "Syarif",
-      "birthday": "2001-06-03",
-      "birthplace": "Jakarta",
-      "gender": "male",
+      "examinationDate": "2023-04-22",
+      "doctor": "Dasuni",
+      "birthday": "2000-08-09",
+      "birthplace": "Ragama",
+      "gender": "Male",
       "id": 3
-    },
-    {
-      "patient": "Yasith Bagya",
-      "diagnosis": "Mental issue",
-      "drug": [],
-      "examinationDate": "2023-04-20",
-      "doctor": "Syarif",
-      "birthday": "2001-06-03",
-      "birthplace": "Jakarta",
-      "gender": "male",
-      "id": 4
     }
   ],
   "medicine": [
     {
-      "price": 3000,
+      "price": 10,
       "id": 1,
       "name": "Paracetamol"
     },
     {
-      "price": 12000,
+      "price": 20,
       "id": 2,
       "name": "Aspirin"
     },
     {
-      "price": 5000,
+      "price": 50,
       "id": 3,
       "name": "Ibuprofen"
     },
@@ -102,7 +95,7 @@
     {
       "id": 6,
       "name": "Ventolin",
-      "price": 5
+      "price": 15
     }
   ],
   "patients": [
@@ -116,84 +109,39 @@
       "date": "2022-07-15"
     },
     {
-      "date": "2023-04-20",
-      "time": "14:40",
-      "patientId": 10,
-      "name": "Yasith Bagya",
-      "status": "In queue",
-      "doctor": "Syarif",
-      "id": 2
-    },
-    {
-      "date": "2023-04-19",
-      "time": "13:41",
-      "patientId": 10,
+      "date": "2023-04-22",
+      "time": "20:00",
+      "patientId": 13,
       "name": "Yasith Bagya",
       "status": "Finished",
-      "doctor": "Media",
-      "id": 3
-    },
-    {
-      "date": "2023-04-20",
-      "time": "06:08",
-      "patientId": 10,
-      "name": "Yasith Bagya",
-      "status": "Rejected",
-      "doctor": "Jane Doe",
-      "id": 4
-    },
-    {
-      "date": "2023-08-09",
-      "time": "23:35",
-      "patientId": 10,
-      "name": "Yasith Bagya",
-      "status": "In queue",
-      "doctor": "Jane Doe",
-      "id": 5
-    },
-    {
-      "date": "2023-04-28",
-      "time": "03:00",
-      "patientId": 11,
-      "name": "Senitha",
-      "status": "In queue",
-      "doctor": "Media",
-      "id": 6
-    },
-    {
-      "date": "2023-04-29",
-      "time": "05:14",
-      "patientId": 11,
-      "name": "Senitha",
-      "status": "Rejected",
-      "doctor": "Syarif",
-      "id": 7
+      "doctor": "Dasuni",
+      "id": 2
     }
   ],
   "schedule": [
     {
-      "fee": 80000,
+      "fee": 800,
       "id": 1,
       "timeSlot": "08:00 - 10:00",
       "userId": 1
     },
     {
-      "fee": 45000,
-      "id": 3,
+      "fee": 900,
+      "id": 2,
       "timeSlot": "09:00 - 23:00",
-      "userId": "6"
+      "userId": 2
     },
     {
-      "fee": 60000,
-      "id": 4,
+      "fee": 750,
+      "id": 3,
       "timeSlot": "02:00 - 08:00",
-      "userId": "7"
+      "userId": 3
     },
     {
-      "userId": "1",
-      "timeSlot": "22:00 - 23:00",
-      "fee": 1500,
-      "id": 5
+      "userId": "4",
+      "timeSlot": "18:00 - 22:00",
+      "fee": 950,
+      "id": 4
     }
   ],
   "users": [
@@ -206,14 +154,14 @@
     },
     {
       "email": "kamalakhan@gmail.com",
-      "id": 2,
+      "id": 5,
       "name": "Kamala Khan",
       "password": "$2a$10$fvJedDeB6jvxxKN3WPNbKu8Jd0BaIw6.Fdbj5gRAm7jvhZuV/PFFa",
       "role": "admin"
     },
     {
       "email": "johndoe@gmail.com",
-      "id": 3,
+      "id": 6,
       "name": "John Doe",
       "password": "$2a$10$fvJedDeB6jvxxKN3WPNbKu8Jd0BaIw6.Fdbj5gRAm7jvhZuV/PFFa",
       "role": "receptionist"
@@ -223,7 +171,7 @@
       "birthplace": "Jakarta",
       "email": "renald@gmail.com",
       "gender": "male",
-      "id": 4,
+      "id": 7,
       "name": "Rhenald Karrel",
       "password": "$2a$10$rQPrZWdMnZ7RVSx1bTu32enQjqjAiq0bp6.D.mQTWNwwKr4gXvWVS",
       "phone": 8123456789,
@@ -231,14 +179,14 @@
     },
     {
       "email": "syarif@gmail.com",
-      "id": 6,
+      "id": 2,
       "name": "Syarif",
       "password": "$2a$10$fvJedDeB6jvxxKN3WPNbKu8Jd0BaIw6.Fdbj5gRAm7jvhZuV/PFFa",
       "role": "doctor"
     },
     {
       "email": "media@gmail.com",
-      "id": 7,
+      "id": 3,
       "name": "Media",
       "password": "$2a$10$fvJedDeB6jvxxKN3WPNbKu8Jd0BaIw6.Fdbj5gRAm7jvhZuV/PFFa",
       "role": "doctor"
@@ -266,16 +214,6 @@
       "role": "patient"
     },
     {
-      "email": "yasithbagya@gmail.com",
-      "password": "$2a$10$mRvbBoujWhm/4MPCt4zGx.OKaC2gc4EBZ6owFDYzInm9BvyLjxsjS",
-      "name": "Yasith Bagya",
-      "role": "patient",
-      "id": 10,
-      "birthday": "2001-06-03",
-      "birthplace": "Jakarta",
-      "gender": "male"
-    },
-    {
       "email": "senitha@gmail.com",
       "password": "$2a$10$lFZtgz51YE5seUcfBRnVMellkE6k.x67t.GTKKkjwWpe92QBfR9Oe",
       "name": "Senitha",
@@ -291,7 +229,18 @@
       "password": "$2a$10$aZAzUA1l2BIG/u99I746C.F2RwFXp6CdLRffni952y8BXjfhwZw/6",
       "name": "Dasuni",
       "role": "doctor",
-      "id": 12
+      "id": 4
+    },
+    {
+      "email": "yasithbagya@gmail.com",
+      "password": "$2a$10$wW4.l/FfcTruGRdM035EVuKkFxz9Zkd9/34iyk1SJwQO4vgTk2nNS",
+      "name": "Yasith Bagya",
+      "gender": "Male",
+      "birthplace": "Ragama",
+      "birthday": "2000-08-09",
+      "phone": 740843132,
+      "role": "patient",
+      "id": 13
     }
   ]
 }

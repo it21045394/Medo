@@ -157,12 +157,12 @@ export default function ScheduleForm() {
             <Stack>
               <form onSubmit={formik.handleSubmit}>
                 <FormControl>
-                  <FormLabel fontSize={14}>Docter</FormLabel>
+                  <FormLabel fontSize={14}>Doctor</FormLabel>
                   <Select
                     value={formik.values.userId}
                     name="userId"
                     onChange={formik.handleChange}
-                    placeholder="Select option"
+                    placeholder="Select Doctor"
                     size="sm"
                   >
                     {selections.map((r: any) => (

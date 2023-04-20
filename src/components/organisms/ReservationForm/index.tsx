@@ -71,13 +71,14 @@ function ReservationForm({
           Time
         </FormLabel>
         <Input
-          id="time"
-          name="time"
+          id="timeSlot"
+          name="timeSlot"
           variant="outline"
           fontSize="sm"
           ms="4px"
           type="time"
           size="lg"
+          defaultValue={timeSlot}
           value={timeSlot}
           onChange={onChange}
         />
