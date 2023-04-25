@@ -21,7 +21,7 @@ function SignIn({
   const bgForm = useColorModeValue("white", "navy.800");
   const titleColor = useColorModeValue("gray.700", "blue.500");
   return (
-    <Flex position="relative" bg="gray.100">
+    <Flex position="relative" bgGradient="linear(to-r, blue.200, purple.200)">
       <Flex
         h="100vh"
         w="100%"
@@ -58,7 +58,7 @@ function SignIn({
 
             <form onSubmit={onSubmit}>
               <FormControl>
-                <FormLabel ms="4px" fontSize="sm" fontWeight="normal">
+                <FormLabel ms="5px" fontSize="sm" fontWeight="medium">
                   Email
                 </FormLabel>
                 <Input
@@ -77,7 +77,7 @@ function SignIn({
                 />
               </FormControl>
               <FormControl>
-                <FormLabel ms="4px" fontSize="sm" fontWeight="normal">
+                <FormLabel ms="4px" fontSize="sm" fontWeight="medium">
                   Password
                 </FormLabel>
                 <Input
@@ -102,7 +102,7 @@ function SignIn({
                 h="45"
                 mb="24px"
                 color="white"
-                bg="blue.300"
+                bgGradient="linear(to-r, blue.400, purple.400)"
                 type="submit"
               >
                 Enter

@@ -17,6 +17,24 @@
       "billing": 1105,
       "name": "Yasith Bagya",
       "id": 3
+    },
+    {
+      "idEmr": 4,
+      "billing": 850,
+      "name": "Yasith Bagya",
+      "id": 4
+    },
+    {
+      "idEmr": 5,
+      "billing": 910,
+      "name": "Yasith Bagya",
+      "id": 5
+    },
+    {
+      "idEmr": 6,
+      "billing": 810,
+      "name": "Yasith Bagya",
+      "id": 6
     }
   ],
   "emr": [
@@ -64,6 +82,45 @@
       "birthplace": "Ragama",
       "gender": "Male",
       "id": 3
+    },
+    {
+      "patient": "Yasith Bagya",
+      "diagnosis": "Sleepyness",
+      "drug": [
+        "Peniciline"
+      ],
+      "examinationDate": "2023-04-25",
+      "doctor": "Upul Tharanga",
+      "birthday": "2000-08-09",
+      "birthplace": "Ragama",
+      "gender": "Male",
+      "id": 4
+    },
+    {
+      "patient": "Yasith Bagya",
+      "diagnosis": "Minor Injury",
+      "drug": [
+        "Panadol"
+      ],
+      "examinationDate": "2023-04-26",
+      "doctor": "Safi Perera",
+      "birthday": "2000-08-09",
+      "birthplace": "Ragama",
+      "gender": "Male",
+      "id": 5
+    },
+    {
+      "patient": "Yasith Bagya",
+      "diagnosis": "headache",
+      "drug": [
+        "Panadol"
+      ],
+      "examinationDate": "2023-04-27",
+      "doctor": "Upul Tharanga",
+      "birthday": "2000-08-09",
+      "birthplace": "Ragama",
+      "gender": "Male",
+      "id": 6
     }
   ],
   "medicine": [
@@ -107,25 +164,6 @@
       "name": "Mahinda Rajapaksha",
       "status": "Finished",
       "date": "2022-07-15"
-    },
-    {
-      "date": "2023-04-22",
-      "time": "20:00",
-      "patientId": 13,
-      "name": "Yasith Bagya",
-      "status": "Finished",
-      "doctor": "Wasanthi Wijesinghe",
-      "id": 2
-    },
-    {
-      "date": "2023-04-25",
-      "time": "",
-      "patientId": 13,
-      "name": "Yasith Bagya",
-      "status": "In queue",
-      "doctor": "Upul Tharanga",
-      "timeSlot": "16:00",
-      "id": 3
     }
   ],
   "schedule": [

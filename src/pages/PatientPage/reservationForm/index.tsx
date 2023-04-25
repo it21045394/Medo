@@ -49,7 +49,7 @@ const FormRegister = () => {
           onSubmit={formik.handleSubmit}
           onChange={formik.handleChange}
           date={formik.values.date}
-          timeSlot={formik.values.date}
+          time={formik.values.time}
           doctor={formik.values.doctor}
         />
       </SidebarWithHeader>

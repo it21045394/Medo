@@ -22,4 +22,5 @@ export const formatMoney= (num: number, prefix: string) => {
 
   return `LKR. ${round(parseFloat(money),2)}`;
 
+
 }

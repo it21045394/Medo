@@ -7,6 +7,6 @@ export type RegisterProps = {
   emailValue: string;
   passValue: string;
   secondPassValue: string;
-  onChange: React.ChangeEventHandler<HTMLInputElement>;
+  onChange: (event: React.ChangeEvent<HTMLInputElement>) => void;
   onSubmit: (e?: React.FormEvent<HTMLFormElement>) => void;
 }

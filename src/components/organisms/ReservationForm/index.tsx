@@ -14,7 +14,7 @@ function ReservationForm({
   onChange,
   date,
   doctor,
-  timeSlot,
+  time,
 }: ReservationFormProps) {
   const [doctors, setDoctors] = useState([]);
 
@@ -71,15 +71,15 @@ function ReservationForm({
           Time
         </FormLabel>
         <Input
-          id="timeSlot"
-          name="timeSlot"
+          id="time"
+          name="time"
           variant="outline"
           fontSize="sm"
           ms="4px"
           type="time"
           size="lg"
-          defaultValue={timeSlot}
-          value={timeSlot}
+          defaultValue={time}
+          value={time}
           onChange={onChange}
         />
         <FormHelperText>
